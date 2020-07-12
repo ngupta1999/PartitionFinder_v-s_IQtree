@@ -13,6 +13,8 @@
        DNAF, 16S = 1416-1897
        DNAF, mitochondrial_genome = 650-1897
        DNAF, nuclear_genome = 1-649
+   It merged ef1a_1stpos, COI_1stpos and ef1a_2ndpos, COI_2ndpos into single gene.
+   
    3. Partitionfinder analysis had less number of independent parameters than that in Modelfinder Analysis.
  
        
