@@ -11,10 +11,19 @@
        DNAF, 16S = 1416-1897
        DNAF, mitochondrial_genome = 650-1897
        DNAF, nuclear_genome = 1-649
+       
+  *TREE from PartitionFinder*
       
-![TREE from PartitionFinder](https://user-images.githubusercontent.com/48491729/87254644-9104a180-c4a1-11ea-9b41-b163f94efe53.jpg)
+![](https://user-images.githubusercontent.com/48491729/87254644-9104a180-c4a1-11ea-9b41-b163f94efe53.jpg)
 
-![TREE from Modelfinder](https://user-images.githubusercontent.com/48491729/87254723-315ac600-c4a2-11ea-8283-1841c9a9dc49.jpg)
+  *TREE from Modelfinder
+
+![](https://user-images.githubusercontent.com/48491729/87254723-315ac600-c4a2-11ea-8283-1841c9a9dc49.jpg)
+
+  *TREE from Unpartitioned Model(GTR+F+R4 model was implemented)*
+
+![](https://user-images.githubusercontent.com/48491729/87254761-8f87a900-c4a2-11ea-9f68-792918ef9cee.jpg)
+
 
 
 
