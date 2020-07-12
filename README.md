@@ -4,7 +4,7 @@
   2. The best partitioning scheme of IQtree had merged two genes together
          in order to have fewer independent variables.
          
-  **IQtree best partioning scheme is shown below**
+  **IQtree's Modelfinder analysis best partioning scheme is shown below**
   
        DNAF, ef1a_1stpos_COI_1stpos = 1-649\3, 650-1415\3
        DNAF, ef1a_2ndpos_COI_2ndpos = 2-649\3, 651-1415\3
