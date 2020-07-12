@@ -16,7 +16,7 @@
       
 ![](https://user-images.githubusercontent.com/48491729/87254644-9104a180-c4a1-11ea-9b41-b163f94efe53.jpg)
 
-  *TREE from Modelfinder
+  *TREE from Modelfinder*
 
 ![](https://user-images.githubusercontent.com/48491729/87254723-315ac600-c4a2-11ea-8283-1841c9a9dc49.jpg)
 
