@@ -12,5 +12,5 @@ NOTE: Alignment file and the configuration file must be in the same folder
 
 2. Total number of partitioning schemes were 877 with scheme AICc value 37169.4598237
 
-3. Total number of paramerters were 146
+3. Total number of independent paramerters were 146
      
