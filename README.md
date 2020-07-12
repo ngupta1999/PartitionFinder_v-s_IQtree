@@ -12,5 +12,7 @@
        DNAF, mitochondrial_genome = 650-1897
        DNAF, nuclear_genome = 1-649
       
-![Tree obtained from Partitonfinder]()
+![TREE from PartitionFinder](https://user-images.githubusercontent.com/48491729/87254644-9104a180-c4a1-11ea-9b41-b163f94efe53.jpg)
+
+
    
