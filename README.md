@@ -1,7 +1,7 @@
 # PartitionFinder v/s ModelFinder
   ## Results
   1. Different partitioning schemes were observed in both the analysis.
-  2. The best partitioning scheme of IQtree had merged two genes together
+  2. The best partitioning scheme of IQtree merged two partitions together
          in order to have fewer independent variables.
          
   **IQtree's Modelfinder analysis best partioning scheme is shown below**
@@ -11,9 +11,8 @@
        DNAF, ef1a_3rdpos = 3-649\3
        DNAF, COI_3rdpos = 652-1415\3
        DNAF, 16S = 1416-1897
-       DNAF, mitochondrial_genome = 650-1897
-       DNAF, nuclear_genome = 1-649
-   It merged ef1a_1stpos, COI_1stpos and ef1a_2ndpos, COI_2ndpos into single gene.
+
+   It merged ef1a_1stpos, COI_1stpos and ef1a_2ndpos, COI_2ndpos into single partition.
    
    3. Partitionfinder analysis had less number of independent parameters than that in Modelfinder Analysis.
  
@@ -30,9 +29,10 @@
 
 ![](https://user-images.githubusercontent.com/48491729/87254761-8f87a900-c4a2-11ea-9f68-792918ef9cee.jpg)
 
-  The trees were constructed using FigTree software 
-  According to the AICc values it was observed that the TREE obtained by performing Modelfinder is close to the reality with the
-  AICc value of 75851.9964 (AICc for PartitionFinder's tree and Unpartitioned tree are respectively 37169.4598237 and 39233.2597)
+  * The trees were constructed using FigTree software.
+  * After the Partitionfinder analysis and IQtree analysis trees files were obtained for each of them in **Newick format**. 
+  * According to the AICc values it was observed that the TREE obtained by performing Modelfinder is close to the reality with the
+    AICc value of 75851.9964 (AICc for PartitionFinder's tree and Unpartitioned tree are respectively 37169.4598237 and 39233.2597)
 
 
 
