@@ -5,14 +5,10 @@ begin sets;
   charset ef1a_3rdpos = 3-649\3;
   charset COI_3rdpos = 652-1415\3;
   charset 16S = 1416-1897;
-  charset mitochondrial_genome = 650-1897;
-  charset nuclear_genome = 1-649;
   charpartition mymodels =
-    TIM2+F+I+G4: ef1a_1stpos_COI_1stpos,
-    F81+F+I+G4: ef1a_2ndpos_COI_2ndpos,
+    TIM2+F+R3: ef1a_1stpos_COI_1stpos,
+    F81+F+R2: ef1a_2ndpos_COI_2ndpos,
     TPM2u+F+G4: ef1a_3rdpos,
     TIM2+F+R3: COI_3rdpos,
-    GTR+F+I+G4: 16S,
-    GTR+F+I+G4: mitochondrial_genome,
-    TIM2+F+I+G4: nuclear_genome;
+    GTR+F+I+G4: 16S;
 end;
