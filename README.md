@@ -31,8 +31,8 @@
 
   * The trees were constructed using FigTree software.
   * After the Partitionfinder analysis and IQtree analysis tree files were obtained for each of them in **Newick format**. 
-  * According to the AICc values it was observed that the TREE obtained by performing Partitionfinder is closest to the reality with the
-    AICc value of 37169.4598237 (AICc for IQtree and Unpartitioned model are respectively  37199.6958 and 39233.2597)
+  * According to the AICc values it was observed that the TREE obtained by performing **Partitionfinder** is closest to the reality with the
+    **AICc value of 37169.4598237** (AICc for IQtree and Unpartitioned model are respectively  37199.6958 and 39233.2597)
 
 
 
