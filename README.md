@@ -24,7 +24,7 @@
 
   **TREE from Modelfinder**
 
-![](https://user-images.githubusercontent.com/48491729/87254723-315ac600-c4a2-11ea-8283-1841c9a9dc49.jpg)
+![](https://user-images.githubusercontent.com/48491729/87333692-19934880-c55b-11ea-858e-6729a1f0d591.jpg)
 
   **TREE from Unpartitioned Model(GTR+F+R4 model was implemented)**
 
