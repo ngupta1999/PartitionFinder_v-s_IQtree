@@ -3,7 +3,7 @@ Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    DESKTOP-GJ397G9 (AVX2, FMA3, 3 GB RAM)
-Command: iqtree -s alignment.nex -spp alignment.nex -m MFP+MERGE -merit AICc
+Command: iqtree -s alignment_1.nex -spp alignment_1.nex -m MFP+MERGE -merit AICc
 Seed:    595191 (Using SPRNG - Scalable Parallel Random Number Generator)
 Time:    Wed Jul 15 21:06:01 2020
 Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
@@ -11,9 +11,9 @@ Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
 HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
 HINT: -nt AUTO will automatically determine the best number of threads to use.
 
-Reading partition model file alignment.nex ...
+Reading partition model file alignment_1.nex ...
 Skipping unknown block (DATA)...
-Reading alignment file alignment.nex ... Nexus format detected
+Reading alignment file alignment_1.nex ... Nexus format detected
 Skipping unknown block (SETS)...
 WARNING: 11 sites contain only gaps or ambiguous characters.
 Alignment has 44 sequences with 1897 columns, 801 distinct patterns
@@ -292,11 +292,11 @@ Total CPU time used: 71.812 sec (0h:1m:11s)
 Total wall-clock time used: 86.556 sec (0h:1m:26s)
 
 Analysis results written to: 
-  IQ-TREE report:                alignment.nex.iqtree
-  Maximum-likelihood tree:       alignment.nex.treefile
-  Likelihood distances:          alignment.nex.mldist
-  Best partitioning scheme:      alignment.nex.best_scheme.nex
-           in RAxML format:      alignment.nex.best_scheme
-  Screen log file:               alignment.nex.log
+  IQ-TREE report:                alignment_1.nex.iqtree
+  Maximum-likelihood tree:       alignment_1.nex.treefile
+  Likelihood distances:          alignment_1.nex.mldist
+  Best partitioning scheme:      alignment_1.nex.best_scheme.nex
+           in RAxML format:      alignment_1.nex.best_scheme
+  Screen log file:               alignment_1.nex.log
 
 Date and Time: Wed Jul 15 21:17:42 2020
