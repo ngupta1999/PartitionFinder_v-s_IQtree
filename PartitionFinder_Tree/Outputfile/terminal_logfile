@@ -120,10 +120,10 @@ WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
 BEST-FIT PARTITION MODEL: 
   charpartition AICc = TN+F+R3: Subset1, F81+F+I: Subset2, TPM2u+F+G4: Subset3, SYM+I+G4: Subset4, TPM3u+F+I+G4: Subset5, TIM2+F+R4: Subset6, GTR+F+R4: Subset7;
 Agglomerative model selection: (Subset1,Subset2,Subset3,Subset4,Subset5,Subset6,Subset7)
-Partition information was printed to alignment.nex.best_scheme.nex
-Partition information in Raxml format was printed to alignment.nex.best_scheme
+Partition information was printed to alignment_1.nex.best_scheme.nex
+Partition information in Raxml format was printed to alignment_1.nex.best_scheme
 
-All model information printed to alignment.nex.model.gz
+All model information printed to alignment_1.nex.model.gz
 CPU time for ModelFinder: 603.875 seconds (0h:10m:3s)
 Wall-clock time for ModelFinder: 612.492 seconds (0h:10m:12s)
 
