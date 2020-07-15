@@ -1,0 +1,302 @@
+IQ-TREE multicore version 1.6.12 for Windows 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    DESKTOP-GJ397G9 (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s alignment.nex -spp alignment.nex -m MFP+MERGE -merit AICc
+Seed:    595191 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jul 15 21:06:01 2020
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file alignment.nex ...
+Skipping unknown block (DATA)...
+Reading alignment file alignment.nex ... Nexus format detected
+Skipping unknown block (SETS)...
+WARNING: 11 sites contain only gaps or ambiguous characters.
+Alignment has 44 sequences with 1897 columns, 801 distinct patterns
+648 parsimony-informative, 110 singleton sites, 1139 constant sites
+       Gap/Ambiguity  Composition  p-value
+   1  Ac1      5.59%    passed     98.93%
+   2  Am1     20.56%    passed     77.82%
+   3  Av5      4.64%    passed     95.71%
+   4  Bon2     6.22%    passed     80.87%
+   5  Bor2     5.27%    passed     96.69%
+   6  Cala2    5.27%    passed     91.18%
+   7  Cali1    5.32%    passed     92.86%
+   8  Ce3      5.38%    passed     98.31%
+   9  Co4      5.17%    passed     81.02%
+  10  Con3    19.03%    passed     39.71%
+  11  Cr2      5.69%    passed     95.30%
+  12  Du3      5.38%    passed     97.01%
+  13  Em1      5.11%    passed     88.28%
+  14  Gr2      6.22%    passed     96.94%
+  15  Ho5      5.17%    passed     69.90%
+  16  Hu2      5.43%    passed     98.59%
+  17  Int7     2.48%    passed     81.30%
+  18  Knu1     5.22%    passed     85.74%
+  19  Lat3     4.96%    passed     12.02%
+  20  Le3      5.27%    passed     92.38%
+  21  Lo3     39.33%    passed      7.37%
+  22  Ma1     39.17%    failed      2.67%
+  23  Mo1      5.17%    passed     94.68%
+  24  Mx1     18.92%    failed      0.89%
+  25  Nob1    39.27%    failed      3.38%
+  26  Pa2      5.11%    passed     96.85%
+  27  Pet1     5.22%    passed     99.48%
+  28  Pl4      2.74%    passed     79.12%
+  29  Pil2     5.27%    passed     96.85%
+  30  Pin1     3.95%    passed     33.40%
+  31  Pro      5.38%    passed     90.30%
+  32  Sch1    39.33%    passed      7.95%
+  33  Sex1     5.17%    passed     99.69%
+  34  Sp1      5.27%    passed     36.54%
+  35  Ste1    40.22%    failed      2.05%
+  36  Tri4     5.27%    passed     92.40%
+  37  Ty1      5.22%    passed     86.91%
+  38  Wo3      5.32%    passed     94.00%
+  39  Oer1     5.38%    passed     64.90%
+  40  Ort1     5.54%    passed     78.28%
+  41  Pito1    5.01%    passed     29.21%
+  42  Pica1   39.17%    failed      2.11%
+  43  Pho1     5.48%    passed     82.62%
+  44  Pk1      4.96%    passed     52.35%
+****  TOTAL   10.78%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Loading 7 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		44	217	20	190	TRN+I+G	Subset1
+2	DNA	38	216	8	204	F81+I+G	Subset2
+3	DNA	38	216	118	70	GTR+G	Subset3
+4	DNA	44	256	60	182	SYM+I+G	Subset4
+5	DNA	44	255	19	226	TVM+I+G	Subset5
+6	DNA	44	255	236	8	TVM+G	Subset6
+7	DNA	44	482	187	259	GTR+I+G	Subset7
+Degree of missing data: 0.031
+Info: multi-threading strategy over partitions
+
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.065 seconds
+NOTE: ModelFinder requires 12 MB RAM!
+Testing GTR+F+G on supermatrix...
+GTR+F+G4 / LnL: -19682.437 / df: 94 / AIC: 39552.874 / AICc: 39562.785 / BIC: 40074.388
+Selecting individual models for 7 charsets using AICc...
+ No. Model        Score       Charset
+   1 TN+F+R3      1427.874    Subset1
+   2 F81+F+I      959.908     Subset2
+   3 TPM2u+F+G4   4447.905    Subset3
+   4 SYM+I+G4     3748.944    Subset4
+   5 TPM3u+F+I+G4 1490.601    Subset5
+   6 TIM2+F+R4    15659.368   Subset6
+   7 GTR+F+R4     9268.607    Subset7
+Full partition model AICc score: 37191.551 (LnL: -18432.803  df:150)
+Merging models to increase model fit (about 43 total partition schemes)...
+   8 TN+F+I+G4    37251.997   Subset1+Subset2
+   9 TIM2+F+R4    37397.709   Subset1+Subset3
+  10 TIM2+F+R4    37209.782   Subset1+Subset4	0h:1m:56s (0h:6m:23s left)
+  11 TIM3+F+R3    37250.885   Subset1+Subset5	0h:2m:1s (0h:5m:53s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  12 GTR+F+I+G4   38058.807   Subset1+Subset6	0h:2m:41s (0h:6m:58s left)
+  13 GTR+F+I+G4   37462.610   Subset1+Subset7	0h:2m:55s (0h:6m:45s left)
+  14 TIM2+F+G4    37430.300   Subset2+Subset3	0h:3m:0s (0h:6m:14s left)
+  15 TIM2+F+R3    37298.716   Subset2+Subset4	0h:3m:9s (0h:5m:53s left)
+  16 TPM3u+F+I+G4 37196.802   Subset2+Subset5	0h:3m:11s (0h:5m:23s left)
+  17 TIM+F+I+G4   37991.080   Subset2+Subset6	0h:3m:58s (0h:6m:4s left)
+  18 GTR+F+I+G4   37432.947   Subset2+Subset7	0h:4m:11s (0h:5m:48s left)
+  19 GTR+F+I+G4   37312.565   Subset3+Subset4	0h:4m:20s (0h:5m:28s left)
+  20 TPM2u+F+I+G4 37398.972   Subset3+Subset5	0h:4m:26s (0h:5m:6s left)
+  21 TIM+F+R5     37711.909   Subset3+Subset6	0h:5m:26s (0h:5m:42s left)
+  22 GTR+F+R4     37433.766   Subset3+Subset7	0h:6m:1s (0h:5m:44s left)
+  23 TIM2+F+I+G4  37297.958   Subset4+Subset5	0h:6m:7s (0h:5m:19s left)
+  24 GTR+F+R5     37849.405   Subset4+Subset6	0h:7m:19s (0h:5m:47s left)
+  25 GTR+F+I+G4   37415.347   Subset4+Subset7	0h:7m:38s (0h:5m:29s left)
+  26 TIM+F+I+G4   38073.844   Subset5+Subset6	0h:8m:24s (0h:5m:30s left)
+  27 GTR+F+I+G4   37442.025   Subset5+Subset7	0h:8m:38s (0h:5m:7s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  28 GTR+F+I+G4   37795.250   Subset6+Subset7	0h:10m:10s (0h:5m:26s left)
+BEST-FIT PARTITION MODEL: 
+  charpartition AICc = TN+F+R3: Subset1, F81+F+I: Subset2, TPM2u+F+G4: Subset3, SYM+I+G4: Subset4, TPM3u+F+I+G4: Subset5, TIM2+F+R4: Subset6, GTR+F+R4: Subset7;
+Agglomerative model selection: (Subset1,Subset2,Subset3,Subset4,Subset5,Subset6,Subset7)
+Partition information was printed to alignment.nex.best_scheme.nex
+Partition information in Raxml format was printed to alignment.nex.best_scheme
+
+All model information printed to alignment.nex.model.gz
+CPU time for ModelFinder: 603.875 seconds (0h:10m:3s)
+Wall-clock time for ModelFinder: 612.492 seconds (0h:10m:12s)
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -21103.043
+Current log-likelihood at step 1: -18938.234
+Current log-likelihood at step 2: -18765.143
+Current log-likelihood at step 3: -18653.166
+Current log-likelihood at step 4: -18600.984
+Current log-likelihood at step 5: -18568.286
+Current log-likelihood at step 6: -18547.820
+Current log-likelihood at step 7: -18532.181
+Current log-likelihood at step 8: -18521.526
+Current log-likelihood at step 9: -18513.797
+Current log-likelihood at step 10: -18507.774
+Current log-likelihood at step 11: -18502.811
+Current log-likelihood at step 12: -18498.806
+Current log-likelihood at step 13: -18495.141
+Current log-likelihood at step 14: -18491.941
+Current log-likelihood at step 15: -18488.945
+Current log-likelihood at step 16: -18486.249
+Current log-likelihood at step 17: -18483.718
+Current log-likelihood at step 18: -18481.432
+Current log-likelihood at step 19: -18479.291
+Current log-likelihood at step 20: -18477.356
+Current log-likelihood at step 21: -18475.650
+Current log-likelihood at step 22: -18474.098
+Current log-likelihood at step 23: -18472.812
+Current log-likelihood at step 24: -18471.706
+Current log-likelihood at step 25: -18470.996
+Current log-likelihood at step 26: -18470.222
+Current log-likelihood at step 27: -18469.570
+Current log-likelihood at step 28: -18468.937
+Current log-likelihood at step 29: -18468.407
+Current log-likelihood at step 30: -18467.806
+Current log-likelihood at step 31: -18467.356
+Current log-likelihood at step 32: -18466.882
+Current log-likelihood at step 33: -18466.456
+Current log-likelihood at step 34: -18466.047
+Current log-likelihood at step 35: -18465.657
+Current log-likelihood at step 36: -18465.299
+Current log-likelihood at step 37: -18464.952
+Current log-likelihood at step 38: -18464.691
+Current log-likelihood at step 39: -18464.342
+Current log-likelihood at step 40: -18464.120
+Current log-likelihood at step 41: -18463.804
+Current log-likelihood at step 42: -18463.605
+Current log-likelihood at step 43: -18463.380
+Current log-likelihood at step 44: -18463.173
+Current log-likelihood at step 45: -18462.979
+Current log-likelihood at step 46: -18462.787
+Current log-likelihood at step 47: -18462.610
+Current log-likelihood at step 48: -18462.433
+Current log-likelihood at step 49: -18462.330
+Current log-likelihood at step 50: -18462.132
+Current log-likelihood at step 51: -18461.950
+Current log-likelihood at step 52: -18461.755
+Current log-likelihood at step 53: -18461.567
+Current log-likelihood at step 54: -18461.383
+Current log-likelihood at step 55: -18461.214
+Current log-likelihood at step 56: -18461.042
+Current log-likelihood at step 57: -18460.885
+Current log-likelihood at step 58: -18460.726
+Current log-likelihood at step 59: -18460.582
+Current log-likelihood at step 60: -18460.494
+Partition-specific rates:  0.081 0.092 0.344 0.257 0.059 5.505 0.623
+Parameters optimization took 59 rounds (17.597 sec)
+
+Computing ML distances based on estimated model parameters... 0.344 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.058 seconds
+Log-likelihood of BIONJ tree: -18746.759
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.255 second
+Computing log-likelihood of 98 initial trees ... 4.542 seconds
+Current best score: -18460.494
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -18456.624
+Current log-likelihood at step 1: -18456.550
+Parameters optimization took 0 rounds (0.241 sec)
+
+BETTER TREE FOUND at iteration 1: -18456.550
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -18454.305
+Current log-likelihood at step 1: -18454.042
+Current log-likelihood at step 2: -18453.982
+Parameters optimization took 1 rounds (0.502 sec)
+
+BETTER TREE FOUND at iteration 9: -18453.982
+Iteration 10 / LogL: -18456.509 / Time: 0h:0m:33s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -18451.103
+Current log-likelihood at step 1: -18450.464
+Current log-likelihood at step 2: -18450.115
+Current log-likelihood at step 3: -18449.944
+Current log-likelihood at step 4: -18449.763
+Current log-likelihood at step 5: -18449.613
+Current log-likelihood at step 6: -18449.476
+Current log-likelihood at step 7: -18449.407
+Parameters optimization took 6 rounds (2.046 sec)
+
+BETTER TREE FOUND at iteration 15: -18449.407
+Iteration 20 / LogL: -18452.939 / Time: 0h:0m:38s
+Finish initializing candidate tree set (8)
+Current best tree score: -18449.407 / CPU time: 18.420
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -18453.075 / Time: 0h:0m:44s (0h:2m:9s left)
+Iteration 40 / LogL: -18452.957 / Time: 0h:0m:48s (0h:1m:32s left)
+Iteration 50 / LogL: -18452.955 / Time: 0h:0m:51s (0h:1m:8s left)
+Iteration 60 / LogL: -18452.203 / Time: 0h:0m:55s (0h:0m:51s left)
+Iteration 70 / LogL: -18449.421 / Time: 0h:0m:59s (0h:0m:39s left)
+Iteration 80 / LogL: -18449.423 / Time: 0h:1m:4s (0h:0m:28s left)
+Iteration 90 / LogL: -18453.199 / Time: 0h:1m:7s (0h:0m:19s left)
+Iteration 100 / LogL: -18452.942 / Time: 0h:1m:11s (0h:0m:10s left)
+Iteration 110 / LogL: -18449.418 / Time: 0h:1m:15s (0h:0m:3s left)
+TREE SEARCH COMPLETED AFTER 116 ITERATIONS / Time: 0h:1m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -18449.407
+Current log-likelihood at step 1: -18449.257
+Current log-likelihood at step 2: -18449.244
+Current log-likelihood at step 3: -18449.099
+Current log-likelihood at step 4: -18449.073
+Current log-likelihood at step 5: -18448.988
+Current log-likelihood at step 6: -18448.956
+Current log-likelihood at step 7: -18448.855
+Current log-likelihood at step 8: -18448.786
+Current log-likelihood at step 9: -18448.675
+Current log-likelihood at step 10: -18448.491
+Current log-likelihood at step 11: -18448.130
+Current log-likelihood at step 12: -18447.352
+Current log-likelihood at step 13: -18445.891
+Current log-likelihood at step 14: -18444.242
+Current log-likelihood at step 15: -18443.044
+Current log-likelihood at step 16: -18442.145
+Current log-likelihood at step 17: -18441.342
+Current log-likelihood at step 18: -18440.488
+Current log-likelihood at step 19: -18439.419
+Current log-likelihood at step 20: -18438.644
+Current log-likelihood at step 21: -18438.560
+Current log-likelihood at step 22: -18438.545
+Current log-likelihood at step 23: -18438.542
+Partition-specific rates:  0.077 0.088 0.334 0.256 0.056 5.368 0.706
+Parameters optimization took 22 rounds (5.842 sec)
+
+BEST SCORE FOUND : -18438.542
+Total tree length: 7.795
+
+Total number of iterations: 116
+CPU time used for tree search: 51.953 sec (0h:0m:51s)
+Wall-clock time used for tree search: 57.337 sec (0h:0m:57s)
+Total CPU time used: 71.812 sec (0h:1m:11s)
+Total wall-clock time used: 86.556 sec (0h:1m:26s)
+
+Analysis results written to: 
+  IQ-TREE report:                alignment.nex.iqtree
+  Maximum-likelihood tree:       alignment.nex.treefile
+  Likelihood distances:          alignment.nex.mldist
+  Best partitioning scheme:      alignment.nex.best_scheme.nex
+           in RAxML format:      alignment.nex.best_scheme
+  Screen log file:               alignment.nex.log
+
+Date and Time: Wed Jul 15 21:17:42 2020
