@@ -13,7 +13,7 @@ NOTE: Alignment file and the configuration file must be in the same folder
    (Best model was selected on the basis of aicc value)   
 ### 3. Results
 1. All 56 models were considered with +I, +G, +I+G, version of each. 
-2. Total number of partitioning schemes were 877 abd the best scheme was chosen one with AICc value 37169.4598237.
+2. Total number of partitioning schemes were 877 abd the best scheme was chosen one with AICc value 37181.7739.
 3. Total number of independent paramerters were 146.
 
 
