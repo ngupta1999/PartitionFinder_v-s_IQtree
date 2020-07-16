@@ -1,1 +1,0 @@
-iqtree -s alignment_1.nex -spp alignment_1.nex -m MFP+MERGE - merit AICc
