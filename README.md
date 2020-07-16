@@ -19,7 +19,7 @@
        
   **TREE from PartitionFinder**
   
-![](https://user-images.githubusercontent.com/48491729/87641420-b1648280-c765-11ea-9c36-c4727101400f.jpg)
+![](https://user-images.githubusercontent.com/48491729/87641755-2df76100-c766-11ea-9997-9d5c66f8a7ab.jpg)
 
   **TREE from Modelfinder**
 
