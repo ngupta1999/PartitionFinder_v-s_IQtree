@@ -2,6 +2,11 @@
 ### 1. Commandline 
        python "<path to the PartitionFinder.phy file>" "<path to the folder containing alignment and configuration file>"
 NOTE: Alignment file and the configuration file must be in the same folder
+
+       iqtree -spp alignment_1.nex 
+   (This command was used to built the tree using the Partitoning scheme obtained from the Patitionfinder using the IQtree. Unlike MFP+MERGE this command will not overide the         charpartition command in the NEXUS file)
+   
+NOTE: alignment_1.nex contains the Partitioning scheme of the Partitionfinder.    
 ### 2. Configuration File 
        1. models = all
    (To consider all the 56 possible models.)
